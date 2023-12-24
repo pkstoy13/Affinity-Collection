@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import cubeLogo from "./assets/blue 3d rectangle.svg";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
@@ -21,14 +22,12 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
         This is a collection of things I create in Affinity Design <br></br>{" "}
         This is my first project using Vite instead of Create-React-App
       </p>
+      <img src={cubeLogo} alt="Cube Logo" />
     </>
   );
 }

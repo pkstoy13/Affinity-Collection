@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-27.5,33.25)">
+        <path d="M311,344L429,277.5L824,277.5L769,344L311,344Z" style="fill:rgb(86,146,255);stroke:white;stroke-width:1px;"/>
+        <path d="M824,657L769,736L769,344L824,277.5L824,657Z" style="fill:rgb(86,146,255);stroke:white;stroke-width:1px;"/>
+        <path d="M769,736L311,736L311,344L769,344L769,736ZM370,696.5L711,696.5L711,388L370,388L370,696.5Z" style="fill:rgb(86,146,255);stroke:white;stroke-width:1px;"/>
+        <path d="M711,657L711,696.5L370,696.5L429,657L711,657Z" style="fill:rgb(0,15,42);stroke:white;stroke-width:1px;"/>
+        <path d="M370,696.5L370,388L429,388L429,657L370,696.5Z" style="fill:rgb(0,15,42);stroke:black;stroke-width:1px;"/>
+        <path d="M769,736L824,657" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <g transform="matrix(0.659942,0,0,0.657718,190.231,159.181)">
+            <rect x="183" y="281" width="694" height="596" style="fill:none;stroke:white;stroke-width:9.11px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        </g>
+        <path d="M824,657L824,277.5" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <path d="M824,277.5L769,344" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <path d="M824,277.5L429,277.5" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <path d="M311,344L429,277.5" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <rect x="370" y="388" width="341" height="308.5" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <path d="M429,388L429,657" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <path d="M429,657L370,696.5" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <path d="M429,657L711,657" style="fill:none;stroke:white;stroke-width:6px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+    </g>
+</svg>
