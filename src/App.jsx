@@ -20,20 +20,20 @@ export function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>*/}
-      <div className="h-screen bg-slate-600">
-        <h1>The Collection</h1>
+      <div className="h-screen bg-slate-400">
+        <h1 className="flex justify-center mt-9">The Collection</h1>
         {/*<div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
         </button>
       </div>*/}
-        <p>
-          This is a collection of things I create in Affinity Design <br></br>{" "}
-          This is my first project using Vite instead of Create-React-App
+        <p className="flex justify-center">
+          This is a collection of things I create in Affinity Design
         </p>
-        <div>
+        <div className="w-screen grid grid-cols-3">
           <img src={cubeLogo} alt="Cube Logo" />
-          <img src={triLogo} alt="Triangle Logo" width="275px" />
+          <img src={triLogo} alt="Triangle Logo" />
+          <img src={plogo_1} alt="pain-tings Logo 1" />
           <img src={plogo_1} alt="pain-tings Logo 1" />
         </div>
       </div>
