@@ -20,19 +20,23 @@ export function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>*/}
-      <div className="h-screen bg-cerise-red-400">
+      <div className="h-screen bg-cerise-red-700">
         <div className="flex flex-col items-center text-cerise-red-50">
-          <h1 className="text-xl m-4">The Collection. </h1>
+          <h1 className="text-3xl mt-12 font-mono">Affinity Collection </h1>
           <p className="mb-4">
             {" "}
             This is a collection of things I create in Affinity Design
           </p>
         </div>
-        <div className="w-screen grid grid-cols-3 border-2 border-cerise-red-50 rounded-lg">
-          <img src={cubeLogo} alt="Cube Logo" className="tile" />
+        <div className="w-4/6 grid grid-cols-3 justify-center  ">
+          <img
+            src={cubeLogo}
+            alt="Cube Logo"
+            className="tile hover:bg-cerise-red-50 hover:scale-105"
+          />
           <img src={triLogo} alt="Triangle Logo" className="tile" />
           <img src={plogo_1} alt="pain-tings Logo 1" className="tile" />
-          <img src={plogo_1} alt="pain-tings Logo 1" />
+          <img src={plogo_1} alt="pain-tings Logo 1" className="tile" />
         </div>
       </div>
     </>
