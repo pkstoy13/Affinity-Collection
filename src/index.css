@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .tile {
+    @apply border-r-2 border-b-2 border-cerise-red-50;
+  }
+}

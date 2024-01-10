@@ -20,20 +20,18 @@ export function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>*/}
-      <div className="h-screen bg-slate-400">
-        <h1 className="flex justify-center mt-9">The Collection</h1>
-        {/*<div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-        </button>
-      </div>*/}
-        <p className="flex justify-center">
-          This is a collection of things I create in Affinity Design
-        </p>
-        <div className="w-screen grid grid-cols-3">
-          <img src={cubeLogo} alt="Cube Logo" />
-          <img src={triLogo} alt="Triangle Logo" />
-          <img src={plogo_1} alt="pain-tings Logo 1" />
+      <div className="h-screen bg-cerise-red-400">
+        <div className="flex flex-col items-center text-cerise-red-50">
+          <h1 className="text-xl m-4">The Collection. </h1>
+          <p className="mb-4">
+            {" "}
+            This is a collection of things I create in Affinity Design
+          </p>
+        </div>
+        <div className="w-screen grid grid-cols-3 border-2 border-cerise-red-50 rounded-lg">
+          <img src={cubeLogo} alt="Cube Logo" className="tile" />
+          <img src={triLogo} alt="Triangle Logo" className="tile" />
+          <img src={plogo_1} alt="pain-tings Logo 1" className="tile" />
           <img src={plogo_1} alt="pain-tings Logo 1" />
         </div>
       </div>
