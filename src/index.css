@@ -4,6 +4,6 @@
 
 @layer components {
   .tile {
-    @apply border-cerise-red-50 bg-cerise-red-300 rounded-3xl border-8 border-cerise-red-50 rounded-3xl;
+    @apply border-cerise-red-50 bg-gray-300 rounded-3xl border-8 border-cerise-red-50 rounded-3xl;
   }
 }
