@@ -29,6 +29,12 @@ export function ImageUploader() {
     }
   };
 
+  const handleDeleteImage = () => {
+    // Clear the uploaded image from both UI and local storage
+    setSelectedImage(null);
+    localStorage.removeItem("uploadedImage");
+  };
+
   return (
     <div>
       {!selectedImage && (
@@ -49,6 +55,12 @@ export function ImageUploader() {
             alt="Uploaded"
             className="tile hover:scale-105"
           />
+          <button
+            onClick={handleDeleteImage}
+            className="mt-2 bg-red-500 text-white p-2 rounded"
+          >
+            Delete
+          </button>
         </div>
       )}
     </div>
